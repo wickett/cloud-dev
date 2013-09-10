@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: gary
+# Cookbook Name:: cloud-dev
 # Recipe:: default
 #
 # Copyright 2013, James Wickett

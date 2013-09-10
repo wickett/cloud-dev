@@ -1,24 +1,13 @@
-gary Cookbook
-=============
-TODO: Enter the cookbook description here.
-
-e.g.
-This cookbook makes your favorite breakfast sandwhich.
-
-Requirements
-------------
-TODO: List your cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
-
-e.g.
-#### packages
-- `toaster` - gary needs toaster to brown your bagel.
+cloud-dev
+=========
+cloud-dev needs toaster to brown your bagel.
 
 Attributes
 ----------
 TODO: List you cookbook attributes here.
 
 e.g.
-#### gary::default
+#### cloud-dev::default
 <table>
   <tr>
     <th>Key</th>
@@ -27,7 +16,7 @@ e.g.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['gary']['bacon']</tt></td>
+    <td><tt>['cloud-dev']['bacon']</tt></td>
     <td>Boolean</td>
     <td>whether to include bacon</td>
     <td><tt>true</tt></td>
@@ -36,17 +25,17 @@ e.g.
 
 Usage
 -----
-#### gary::default
+#### cloud-dev::default
 TODO: Write usage instructions for each cookbook.
 
 e.g.
-Just include `gary` in your node's `run_list`:
+Just include `cloud-dev` in your node's `run_list`:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
-    "recipe[gary]"
+    "recipe[cloud-dev]"
   ]
 }
 ```
@@ -66,3 +55,4 @@ e.g.
 License and Authors
 -------------------
 Authors: TODO: List authors
+=======

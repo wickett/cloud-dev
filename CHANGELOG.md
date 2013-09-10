@@ -1,11 +1,11 @@
-gary CHANGELOG
+cloud-dev CHANGELOG
 ==============
 
-This file is used to list changes made in each version of the gary cookbook.
+This file is used to list changes made in each version of the cloud-dev cookbook.
 
 0.1.0
 -----
-- [your_name] - Initial release of gary
+- [your_name] - Initial release of cloud-dev
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
