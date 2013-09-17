@@ -5,8 +5,8 @@ describe 'cloud-dev::default' do
     run = ChefSpec::ChefRunner.new(platform: 'ubuntu', version: '12.04')
     run.converge('cloud-dev::default')
   end
-  it 'installs dependecies' do
-    expect(chef_run).to install_package('curl')
+  it 'installs dev packages like libxsl, libcurl, ...' do
+    expect(chef_run).to install_package('devpkg')
   end
 end
 

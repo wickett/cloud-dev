@@ -1,4 +1,5 @@
 .chef
+cookbooks
 .gem
 *.rbc
 .bundle

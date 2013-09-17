@@ -1,0 +1,29 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    chef_gem (0.1.0)
+    ntp (1.4.0)
+    tmux (1.3.2)
+
+GIT
+  remote: git://github.com/fnichol/chef-rvm.git
+  ref: master
+  sha: 59dc482e2c39db4c378e79e10569f1becdc4bc43
+  specs:
+    rvm (0.9.1)
+      chef_gem (>= 0.0.0)
+
+PATH
+  remote: .
+  specs:
+    cloud-dev (0.1.0)
+      ntp (>= 0.0.0)
+      rvm (>= 0.0.0)
+      tmux (>= 0.0.0)
+
+DEPENDENCIES
+  cloud-dev (>= 0)
+  ntp (>= 0)
+  rvm (>= 0)
+  tmux (>= 0)
+

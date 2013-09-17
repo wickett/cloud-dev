@@ -1,6 +1,6 @@
 name             'cloud-dev'
-maintainer       'YOUR_COMPANY_NAME'
-maintainer_email 'YOUR_EMAIL'
+maintainer       'wickett'
+maintainer_email 'james@wickett.me'
 license          'All rights reserved'
 description      'Installs/Configures cloud-dev for all your cloud dev needs'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))

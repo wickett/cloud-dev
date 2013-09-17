@@ -6,20 +6,10 @@
 #
 # All rights reserved - Do Not Redistribute
 
-package "build-essential" do
-  action :install
-end
-package "curl" do
-  action :install
-end
-package "libcurl4-openssl-dev" do
-  action :install
-end
-package "exuberant-ctags" do
-  action :install
-end
-package "ack" do
-  action :install
+%w{ 'libxml2-dev', 'libxsl', 'curl', 'libcurl4-openssl-dev', 'build-essential', 'exuberant-ctags', 'ack' }.each do | dev_pkg |
+  package dev_pkg do 
+    action :install
+  end
 end
 
 # Default dev needs
