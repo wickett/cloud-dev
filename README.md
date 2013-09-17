@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/wickett/cloud-dev.png?branch=master)](https://travis-ci.org/wickett/cloud-dev)
+
 cloud-dev
 =========
 cloud-dev needs toaster to brown your bagel.
