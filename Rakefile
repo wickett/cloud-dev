@@ -5,7 +5,7 @@ task :setup do
 end
 
 task :test do 
-  sh "rspec cookbooks/cloud-dev"
+  sh "rspec cookbooks/cloud-dev/spec"
 end
 
 task :lint do 
