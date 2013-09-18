@@ -5,7 +5,6 @@
 # Copyright 2013, James Wickett
 #
 # All rights reserved - Do Not Redistribute
-
 %w{ 'libxml2-dev', 'libxsl', 'curl', 'libcurl4-openssl-dev', 'build-essential', 'exuberant-ctags', 'ack' }.each do | dev_pkg |
   package dev_pkg do 
     action :install
@@ -40,3 +39,14 @@ bash "get tmux conf" do
     curl https://gist.github.com/wickett/6394562/raw/.tmux.conf 2>/dev/null > /home/ubuntu/.tmux.conf
     EOH
 end
+
+bash "get fonts" do
+  user "ubuntu"
+  code <<-EOH
+    mkdir -p /home/ubuntu/.fonts
+    curl https://gist.github.com/qrush/1595572/raw/51bdd743cc1cc551c49457fe1503061b9404183f/Inconsolata-dz-Powerline.otf 2>/dev/null > /home/ubuntu/.fonts/
+    curl https://gist.github.com/qrush/1595572/raw/417a3fa36e35ca91d6d23ac961071094c26e5fad/Menlo-Powerline.otf 2>/dev/null > /home/ubuntu/.fonts/
+    curl https://gist.github.com/qrush/1595572/raw/2eb22321d590265799aac5b166cd19f8358b0db1/mensch-Powerline.otf 2>/dev/null > /home/ubuntu/.fonts/
+    EOH
+end
+
