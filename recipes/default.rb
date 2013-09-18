@@ -5,6 +5,11 @@
 # Copyright 2013, James Wickett
 #
 # All rights reserved - Do Not Redistribute
+#
+
+# Default package
+include_recipe 'apt' 
+
 %w{ 'libxml2-dev', 'libxsl', 'curl', 'libcurl4-openssl-dev', 'build-essential', 'exuberant-ctags', 'ack' }.each do | dev_pkg |
   package dev_pkg do 
     action :install

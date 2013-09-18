@@ -9,3 +9,4 @@ version          '0.1.0'
 depends "rvm"
 depends 'ntp'
 depends "tmux"
+depends "apt"
