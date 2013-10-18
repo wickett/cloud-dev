@@ -10,7 +10,7 @@
 # default package
 include_recipe 'apt' 
 
-%w{libxml2-dev libxslt-dev curl libcurl4-openssl-dev build-essential exuberant-ctags ack xclip}.each do | dev_pkg |
+%w{libxml2-dev libxslt-dev curl libcurl4-openssl-dev build-essential exuberant-ctags ack xclip ack-grep}.each do | dev_pkg |
   package dev_pkg do 
     action :install
   end
